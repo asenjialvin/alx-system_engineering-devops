@@ -37,3 +37,5 @@ chown :school hello : changes the group owner to school for the file hello
 
 chown -R vincent:staff . : changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 
+chown vincent:staff _hello : changes the owner and the group owner of _hello to vincent and staff respectively.	
+
