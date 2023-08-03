@@ -35,3 +35,5 @@ find . -type d -exec chmod ugo+rx {} + :adds execute permission to all subdirect
 
 chown :school hello : changes the group owner to school for the file hello
 
+chown -R vincent:staff . : changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+
