@@ -33,3 +33,5 @@ find . -type d -exec chmod ugo+rx {} + :adds execute permission to all subdirect
 
 12-directory_permissions : Create a script that creates a directory called my_dir with permissions 751 in the working directory.
 
+chown :school hello : changes the group owner to school for the file hello
+
