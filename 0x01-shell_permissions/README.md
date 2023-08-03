@@ -31,4 +31,5 @@ chmod --reference=olleh hello : sets the mode of the file hello the same as olle
 
 find . -type d -exec chmod ugo+rx {} + :adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
 
+12-directory_permissions : Create a script that creates a directory called my_dir with permissions 751 in the working directory.
 
