@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -iname "*.gif" -exec basename {} \; | LC_COLLATE=C sort --ignore-case | while IFS= read -r file; do echo "${file%.*}"; done
+cut -f1 -d$'\t' | sort | uniq -c | tr -s ' ' | sort -t' ' -k1 -nr | head -11 | cut -d' ' -f3
