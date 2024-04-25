@@ -40,8 +40,8 @@ frontend alx-zil-tech-frontend
 
 backend alx-zil-tech-backend
     balance roundrobin
-    server 473231-web-01 54.237.124.193:80 check
-    server 473231-web-02 54.237.74.25:80 check
+    server 499327-web-01 100.26.133.136:80 check
+    server 499327-web-02 54.221.184.20:80 check
 "
 
 # shellcheck disable=SC2154
